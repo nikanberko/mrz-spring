@@ -46,33 +46,7 @@
             <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
         </license>
     </licenses>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
 
-                    <mainClass>com.innovatrics.mrz.MRZParsingManager</mainClass>
-                    <layout>JAR</layout>
-
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
     <dependencies>
 
         <dependency>

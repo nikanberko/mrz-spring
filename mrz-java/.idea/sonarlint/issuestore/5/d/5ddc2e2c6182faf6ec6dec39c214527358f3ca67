@@ -1,0 +1,31 @@
+
+k
+java:S1104%"PMake code a static final constant or non-public and provide accessors if needed.(›ÃÚ®ıÿÿÿÿ
+g
+java:S1104)"QMake code1 a static final constant or non-public and provide accessors if needed.(Ø¤¸Ò
+f
+java:S1104."QMake code2 a static final constant or non-public and provide accessors if needed.(şÿµn
+u
+java:S1104C"ZMake issuingCountry a static final constant or non-public and provide accessors if needed.(˜¥Óşÿÿÿÿ
+u
+java:S1104G"ZMake documentNumber a static final constant or non-public and provide accessors if needed.(©´¡ûÿÿÿÿ
+n
+java:S1104K"SMake surname a static final constant or non-public and provide accessors if needed.(ÅÇÏ•úÿÿÿÿ
+q
+java:S1104O"VMake givenNames a static final constant or non-public and provide accessors if needed.(Òö”ıüÿÿÿÿ
+r
+java:S1104S"WMake dateOfBirth a static final constant or non-public and provide accessors if needed.(¯®›¼úÿÿÿÿ
+j
+java:S1104W"OMake sex a static final constant or non-public and provide accessors if needed.(ï­„ûÿÿÿÿ
+u
+java:S1104["ZMake expirationDate a static final constant or non-public and provide accessors if needed.(œıá“üÿÿÿÿ
+m
+java:S1104`"WMake nationality a static final constant or non-public and provide accessors if needed.(Û‚Ì¥
+u
+java:S1104j"_Make validDocumentNumber a static final constant or non-public and provide accessors if needed.(ÊÅ™°
+w
+java:S1104k"\Make validDateOfBirth a static final constant or non-public and provide accessors if needed.(ÊáÕÿÿÿÿÿ
+u
+java:S1104l"_Make validExpirationDate a static final constant or non-public and provide accessors if needed.(ü¢°ç
+u
+java:S1104m"ZMake validComposite a static final constant or non-public and provide accessors if needed.(‡üìûÿÿÿÿ
