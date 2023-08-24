@@ -1,4 +1,4 @@
-# MRZ
+# MRZ - Bootstrapped with Spring Boot with proper response body
 
 Machine-Readable Zone (MRZ, see http://en.wikipedia.org/wiki/Machine-readable_passport ) parser for Java, as defined by ICAO: http://www.icao.int/
 
