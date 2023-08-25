@@ -8,16 +8,16 @@ public class MrzStringToResponseDTO {
         MrzResponseDTO mrzResponseDTO = new MrzResponseDTO();
 
         // Extract values using custom logic
-        String code = extractValue(mrz, "code=(\\S+)");
-        String issuingCountry = extractValue(mrz, "issuingCountry=(\\S+)");
-        String documentNumber = extractValue(mrz, "documentNumber=(\\S+)");
-        String surname = extractValue(mrz, "surname=(\\S+)");
-        String givenNames = extractValue(mrz, "givenNames=(\\S+)");
-        String dateOfBirth = extractValue(mrz, "dateOfBirth=\\{([^\\}]+)\\}");
-        String sex = extractValue(mrz, "sex=(\\S+)");
-        String expirationDate = extractValue(mrz, "expirationDate=\\{([^\\}]+)\\}");
-        String nationality = extractValue(mrz, "nationality=([^\\}]+)\\}");
-        String optional = extractValue(mrz, "optional=(\\S+)");
+        String code = extractValue(mrz, "code=(\\S+)\\s*,");
+        String issuingCountry = extractValue(mrz, "issuingCountry=(\\S+)\\s*,");
+        String documentNumber = extractValue(mrz, "documentNumber=(\\S+)\\s*,");
+        String surname = extractValue(mrz, "surname=(\\S+)\\s*,");
+        String givenNames = extractValue(mrz, "givenNames=(\\S+)\\s*,");
+        String dateOfBirth = extractValue(mrz, "dateOfBirth=\\{([^\\}]+)\\}\\s*,");
+        String sex = extractValue(mrz, "sex=(\\S+)\\s*,");
+        String expirationDate = extractValue(mrz, "expirationDate=\\{([^\\}]+)\\}\\s*,");
+        String nationality = extractValue(mrz, "nationality=([^\\}]+)\\}\\s*,");
+        String optional = extractValue(mrz, "optional=(\\S+)\\s*,");
 
         // Set values in DTO
         mrzResponseDTO.setCode(code);
