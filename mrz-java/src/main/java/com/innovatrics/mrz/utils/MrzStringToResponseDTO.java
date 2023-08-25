@@ -7,7 +7,6 @@ public class MrzStringToResponseDTO {
     public static MrzResponseDTO mrzStringToResponseDto(String mrz) {
         MrzResponseDTO mrzResponseDTO = new MrzResponseDTO();
 
-        // Extract values using custom logic
         String code = extractValue(mrz, "code=(\\S+)\\s*,");
         String issuingCountry = extractValue(mrz, "issuingCountry=(\\S+)\\s*,");
         String documentNumber = extractValue(mrz, "documentNumber=(\\S+)\\s*,");
@@ -19,7 +18,6 @@ public class MrzStringToResponseDTO {
         String nationality = extractValue(mrz, "nationality=([^\\}]+)\\}\\s*,");
         String optional = extractValue(mrz, "optional=(\\S+)\\s*,");
 
-        // Set values in DTO
         mrzResponseDTO.setCode(code);
         mrzResponseDTO.setIssuingCountry(issuingCountry);
         mrzResponseDTO.setDocumentNumber(documentNumber);
