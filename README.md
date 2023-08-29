@@ -1,2 +1,2 @@
-# mrz-spring
-mrz-java-spring
+#Properbooker-mrz-parser
+Service for ID MRZ parsing 
